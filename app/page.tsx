@@ -7,7 +7,7 @@ const projects = [
     type: 'PDE framework',
     description: 'A high-performance spectral and pseudo-spectral PDE solver with natural mathematical syntax across CPUs, GPUs, and distributed clusters.',
     tags: ['Fourier', 'Chebyshev', 'GPU', 'MPI'],
-    source: 'https://github.com/subhk/Tarang.jl',
+    source: 'https://github.com/SpectralFluid/Tarang.jl',
     docs: 'https://subhk.github.io/Tarang.jl/stable/',
     icon: Waves,
   },
@@ -16,7 +16,7 @@ const projects = [
     type: 'Transform library',
     description: 'Pure-Julia spherical harmonic transforms with scalar and vector analysis, multithreading, and distributed-memory parallelism.',
     tags: ['Spherical harmonics', 'Pure Julia', 'MPI'],
-    source: 'https://github.com/subhk/SHTnsKit.jl',
+    source: 'https://github.com/SpectralFluid/SHTnsKit.jl',
     docs: 'https://subhk.github.io/SHTnsKit.jl/',
     icon: Orbit,
   },
@@ -25,7 +25,7 @@ const projects = [
     type: 'Geophysical solver',
     description: 'A Julia solver for rotating convection and self-consistent dynamos in spherical shells and full balls.',
     tags: ['MHD', 'Rotating flows', 'Spherical domains'],
-    source: 'https://github.com/subhk/GeoDynamo.jl',
+    source: 'https://github.com/SpectralFluid/GeoDynamo.jl',
     icon: Layers3,
   },
   {
@@ -52,7 +52,7 @@ export default function Home() {
             <a href="#projects">Software</a>
             <a href="#science">Science</a>
             <a href="#about">About</a>
-            <a className="github-link" href="https://github.com/subhk/SpectralFluid.github.io"><Code2 size={16} aria-hidden="true" /> GitHub</a>
+            <a className="github-link" href="https://github.com/SpectralFluid"><Code2 size={16} aria-hidden="true" /> GitHub</a>
           </nav>
         </div>
       </header>
@@ -65,7 +65,7 @@ export default function Home() {
             <p className="hero-lead">Fast, readable tools for partial differential equations, spherical harmonic transforms, stability analysis, and geophysical flow.</p>
             <div className="hero-actions">
               <a className="button button-primary" href="#projects">Explore the software <ArrowRight size={17} aria-hidden="true" /></a>
-              <a className="text-link" href="https://github.com/subhk/SpectralFluid.github.io">Browse the source <ArrowUpRight size={15} aria-hidden="true" /></a>
+              <a className="text-link" href="https://github.com/SpectralFluid">Browse the source <ArrowUpRight size={15} aria-hidden="true" /></a>
             </div>
           </div>
           <div className="equation-card" aria-label="Pseudo-spectral method summary">
@@ -134,7 +134,7 @@ export default function Home() {
 
         <section className="closing-panel">
           <div><p className="overline">Open research software</p><h2>Read the code. Reproduce the method. Build the next solver.</h2></div>
-          <a className="button button-primary" href="https://github.com/subhk/SpectralFluid.github.io">Visit GitHub <ArrowUpRight size={17} aria-hidden="true" /></a>
+          <a className="button button-primary" href="https://github.com/SpectralFluid">Visit GitHub <ArrowUpRight size={17} aria-hidden="true" /></a>
         </section>
       </main>
 
