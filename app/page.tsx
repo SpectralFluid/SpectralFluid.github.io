@@ -8,7 +8,7 @@ const projects = [
     description: 'A high-performance spectral and pseudo-spectral PDE solver with natural mathematical syntax across CPUs, GPUs, and distributed clusters.',
     tags: ['Fourier', 'Chebyshev', 'GPU', 'MPI'],
     source: 'https://github.com/SpectralFluid/Tarang.jl',
-    docs: 'https://subhk.github.io/Tarang.jl/stable/',
+    docs: 'https://spectralfluid.github.io/Tarang.jl/stable/',
     icon: Waves,
   },
   {
@@ -17,7 +17,7 @@ const projects = [
     description: 'Pure-Julia spherical harmonic transforms with scalar and vector analysis, multithreading, and distributed-memory parallelism.',
     tags: ['Spherical harmonics', 'Pure Julia', 'MPI'],
     source: 'https://github.com/SpectralFluid/SHTnsKit.jl',
-    docs: 'https://subhk.github.io/SHTnsKit.jl/',
+    docs: 'https://spectralfluid.github.io/SHTnsKit.jl/',
     icon: Orbit,
   },
   {
@@ -26,6 +26,7 @@ const projects = [
     description: 'A Julia solver for rotating convection and self-consistent dynamos in spherical shells and full balls.',
     tags: ['MHD', 'Rotating flows', 'Spherical domains'],
     source: 'https://github.com/SpectralFluid/GeoDynamo.jl',
+    docs: 'https://spectralfluid.github.io/GeoDynamo.jl/',
     icon: Layers3,
   },
   {
