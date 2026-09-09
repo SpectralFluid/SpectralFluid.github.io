@@ -143,10 +143,72 @@ export default function Home() {
           <span><i className="dot dot-blue" /> Open source</span>
         </div>
 
+        <section className="visuals section" aria-labelledby="visuals-title">
+          <div className="section-heading">
+            <div>
+              <p className="section-index">01 / The mathematics in view</p>
+              <h2 id="visuals-title">Structure hidden inside complex flow</h2>
+            </div>
+            <p>
+              Spectral methods turn fields into modes—revealing coherent
+              patterns across turbulent oceans and spherical domains.
+            </p>
+          </div>
+
+          <div className="visual-grid">
+            <figure className="visual-card visual-ocean">
+              <div className="visual-frame">
+                <Image
+                  src="/illustrations/perpetual-ocean.png"
+                  alt="Ocean-current streamlines forming eddies south of Africa"
+                  width={1280}
+                  height={640}
+                  sizes="(max-width: 900px) 100vw, 58vw"
+                />
+              </div>
+              <figcaption>
+                <span className="visual-kicker">Fluid motion</span>
+                <h3>Eddies across scales</h3>
+                <p>
+                  Simulated ocean currents show how large-scale transport and
+                  fine vortical structure coexist in one evolving field.
+                </p>
+                <small>
+                  Visualization: <a href="https://svs.gsfc.nasa.gov/5505/">NASA Scientific Visualization Studio</a>
+                </small>
+              </figcaption>
+            </figure>
+
+            <figure className="visual-card visual-harmonics">
+              <div className="visual-frame">
+                <Image
+                  src="/illustrations/spherical-harmonics.png"
+                  alt="Rows of blue and gold lobes representing real spherical harmonic modes"
+                  width={1600}
+                  height={900}
+                  sizes="(max-width: 900px) 100vw, 42vw"
+                />
+              </div>
+              <figcaption>
+                <span className="visual-kicker">Spectral basis</span>
+                <h3>Fields expressed as modes</h3>
+                <p>
+                  Spherical harmonics provide a compact basis for global
+                  fields, from rotating convection to planetary magnetism.
+                </p>
+                <small>
+                  Image: <a href="https://commons.wikimedia.org/wiki/File:Spherical_Harmonics.png">Inigo Quilez / Wikimedia Commons</a>,{' '}
+                  <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> · resized for web
+                </small>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+
         <section className="projects section" id="projects" aria-labelledby="projects-title">
           <div className="section-heading">
             <div>
-              <p className="section-index">01 / Projects</p>
+              <p className="section-index">02 / Projects</p>
               <h2 id="projects-title">Tools for computational fluid dynamics</h2>
             </div>
             <p>
@@ -190,7 +252,7 @@ export default function Home() {
         <section className="principles section" id="principles" aria-labelledby="principles-title">
           <div className="section-heading compact">
             <div>
-              <p className="section-index">02 / Principles</p>
+              <p className="section-index">03 / Principles</p>
               <h2 id="principles-title">Accuracy without sacrificing reach</h2>
             </div>
           </div>
