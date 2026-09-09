@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   description:
     'Open-source, high-performance Julia tools for spectral fluid dynamics, PDE solvers, and spherical harmonic transforms.',
   icons: {
-    icon: '/favicon.png',
+    icon: '/favicon-v2.png',
   },
 };
 

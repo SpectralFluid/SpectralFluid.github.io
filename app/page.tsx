@@ -79,7 +79,7 @@ export default function Home() {
     <div className="site-shell">
       <header className="site-header">
         <a className="brand" href="#top" aria-label="SpectralFluid home">
-          <Image src="/spectralfluid-logo.png" alt="" width={44} height={44} />
+          <Image src="/spectralfluid-logo-v2.png" alt="" width={44} height={44} />
           <span>SpectralFluid</span>
         </a>
 
@@ -128,7 +128,7 @@ export default function Home() {
             <div className="spectral-orbit orbit-one" />
             <div className="spectral-orbit orbit-two" />
             <Image
-              src="/spectralfluid-logo.png"
+              src="/spectralfluid-logo-v2.png"
               alt=""
               width={512}
               height={512}
@@ -216,7 +216,7 @@ export default function Home() {
 
       <footer>
         <a className="brand footer-brand" href="#top">
-          <Image src="/spectralfluid-logo.png" alt="" width={36} height={36} />
+          <Image src="/spectralfluid-logo-v2.png" alt="" width={36} height={36} />
           <span>SpectralFluid</span>
         </a>
         <p>High-performance spectral methods for fluid dynamics in Julia.</p>

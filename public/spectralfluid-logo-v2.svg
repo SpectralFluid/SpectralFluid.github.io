@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title description">
+  <title id="title">SpectralFluid logo</title>
+  <desc id="description">Three spectral wave bands flowing through a dark circular field.</desc>
+
+  <circle cx="512" cy="512" r="448" fill="#071c36"/>
+  <circle cx="512" cy="512" r="444" fill="none" stroke="#18c8d8" stroke-width="8"/>
+
+  <path
+    d="M150 350 C265 180 455 180 570 350 S770 520 874 350"
+    fill="none"
+    stroke="#18c8d8"
+    stroke-width="76"
+    stroke-linecap="round"
+  />
+  <path
+    d="M150 500 C265 330 455 330 570 500 S770 670 874 500"
+    fill="none"
+    stroke="#edfaff"
+    stroke-width="28"
+    stroke-linecap="round"
+  />
+  <path
+    d="M150 650 C265 480 455 480 570 650 S770 820 874 650"
+    fill="none"
+    stroke="#7654d8"
+    stroke-width="76"
+    stroke-linecap="round"
+  />
+</svg>
